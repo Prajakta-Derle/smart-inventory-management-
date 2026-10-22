@@ -1,0 +1,118 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background-color: #f4f6fb; /* neu base — near-white soft tone */
+  color: #334155; /* slate-700 */
+  font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+
+@layer components {
+  /* ---- Buttons (soft raised, lift on hover, press-in on active) ---- */
+  .btn {
+    @apply inline-flex items-center justify-center gap-1.5 rounded-xl px-4 py-2 text-sm font-medium
+      text-slate-600 transition-all duration-200 focus:outline-none active:scale-[0.98]
+      active:shadow-neu-inset-sm disabled:opacity-50 disabled:cursor-not-allowed;
+    background-color: #f4f6fb;
+    box-shadow: 4px 4px 8px #d4dae6, -4px -4px 8px #ffffff;
+  }
+  .btn:hover:not(:disabled) {
+    color: #4f46e5;
+    box-shadow: 6px 6px 12px #d4dae6, -6px -6px 12px #ffffff;
+  }
+  /* Primary — tinted raised button in brand indigo */
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-1.5 rounded-xl px-4 py-2 text-sm font-medium
+      text-white transition-all focus:outline-none active:shadow-neu-inset-sm
+      disabled:opacity-50 disabled:cursor-not-allowed;
+    background-color: #4f46e5;
+    box-shadow: 4px 4px 8px #d4dae6, -4px -4px 8px #ffffff;
+  }
+  .btn-primary {
+    @apply duration-200 active:scale-[0.98];
+  }
+  .btn-primary:hover:not(:disabled) {
+    background-color: #4338ca;
+    box-shadow: 6px 6px 12px #d4dae6, -6px -6px 12px #ffffff;
+  }
+  .btn-secondary {
+    @apply btn;
+  }
+  .btn-danger {
+    @apply inline-flex items-center justify-center gap-1.5 rounded-xl px-4 py-2 text-sm font-medium
+      text-red-600 transition-all focus:outline-none active:shadow-neu-inset-sm disabled:opacity-50;
+    background-color: #f4f6fb;
+    box-shadow: 4px 4px 8px #d4dae6, -4px -4px 8px #ffffff;
+  }
+  .btn-xs {
+    @apply inline-flex items-center gap-1 rounded-lg px-2.5 py-1 text-xs font-medium text-slate-600
+      transition-all active:shadow-neu-inset-sm;
+    background-color: #f4f6fb;
+    box-shadow: 3px 3px 6px #d4dae6, -3px -3px 6px #ffffff;
+  }
+
+  /* ---- Inputs (inset / pressed-in) ---- */
+  .input {
+    @apply w-full rounded-xl border-0 px-3 py-2 text-sm text-slate-700 transition-shadow
+      placeholder:text-slate-400 focus:outline-none focus:ring-0;
+    background-color: #f4f6fb;
+    box-shadow: inset 3px 3px 6px #d4dae6, inset -3px -3px 6px #ffffff;
+  }
+  .input:focus {
+    box-shadow: inset 3px 3px 6px #d4dae6, inset -3px -3px 6px #ffffff, 0 0 0 2px rgb(99 102 241 / 0.35);
+  }
+
+  /* ---- Cards (soft raised) ---- */
+  .card {
+    @apply rounded-2xl border-0 transition-shadow duration-300;
+    background-color: #f4f6fb;
+    box-shadow: 6px 6px 12px #d4dae6, -6px -6px 12px #ffffff;
+  }
+  /* Opt-in interactive card that lifts on hover (for clickable KPI/stat cards). */
+  .card-hover {
+    @apply card cursor-default;
+  }
+  .card-hover:hover {
+    box-shadow: 9px 9px 18px #d4dae6, -9px -9px 18px #ffffff;
+  }
+
+  /* ---- Status / role badges (inset pills; keep color for meaning) ---- */
+  .badge {
+    @apply inline-block rounded-full px-2.5 py-0.5 text-xs font-semibold;
+    box-shadow: inset 2px 2px 4px #d4dae6, inset -2px -2px 4px #ffffff;
+  }
+  .badge-green {
+    @apply badge text-emerald-700;
+  }
+  .badge-amber {
+    @apply badge text-amber-700;
+  }
+  .badge-red {
+    @apply badge text-red-700;
+  }
+  .badge-slate {
+    @apply badge text-slate-600;
+  }
+  .badge-brand {
+    @apply badge text-brand-700;
+  }
+}
+
+/* Respect users who prefer reduced motion — disable all animation/transition. */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}

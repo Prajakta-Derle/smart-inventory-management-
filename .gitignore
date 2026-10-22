@@ -1,0 +1,21 @@
+# Build outputs
+backend/target/
+frontend/dist/
+frontend/node_modules/
+
+# Env files (never commit secrets)
+.env
+.env.*
+!.env.example
+!.env.production.example
+
+# IDE / OS
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
+
+# Logs / temp
+out.txt
+*.log

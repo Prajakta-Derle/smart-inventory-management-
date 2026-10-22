@@ -1,0 +1,436 @@
+{
+  "pbtResults": {},
+  "executionHistory": {
+    "1.1 Initialize Spring Boot project with all required dependencies": [
+      {
+        "executionId": "e3f61456-7361-4fb2-9aab-95d7e5eb9ebf",
+        "chatSessionId": "sess_6b8d45d6-c610-4cb4-875d-7bc92e25abc4",
+        "timestamp": 1791189211633
+      },
+      {
+        "executionId": "e3f61456-7361-4fb2-9aab-95d7e5eb9ebf",
+        "chatSessionId": "sess_6b8d45d6-c610-4cb4-875d-7bc92e25abc4",
+        "timestamp": 1791189232749
+      }
+    ],
+    "1.2 Implement the API response envelope DTOs and global exception handler": [
+      {
+        "executionId": "e3f61456-7361-4fb2-9aab-95d7e5eb9ebf",
+        "chatSessionId": "sess_6b8d45d6-c610-4cb4-875d-7bc92e25abc4",
+        "timestamp": 1791189212436
+      },
+      {
+        "executionId": "e3f61456-7361-4fb2-9aab-95d7e5eb9ebf",
+        "chatSessionId": "sess_6b8d45d6-c610-4cb4-875d-7bc92e25abc4",
+        "timestamp": 1791189279722
+      },
+      {
+        "executionId": "e3f61456-7361-4fb2-9aab-95d7e5eb9ebf",
+        "chatSessionId": "sess_6b8d45d6-c610-4cb4-875d-7bc92e25abc4",
+        "timestamp": 1791191244415
+      }
+    ],
+    "2.1 Implement all JPA entity classes": [
+      {
+        "executionId": "e3f61456-7361-4fb2-9aab-95d7e5eb9ebf",
+        "chatSessionId": "sess_6b8d45d6-c610-4cb4-875d-7bc92e25abc4",
+        "timestamp": 1791189212957
+      },
+      {
+        "executionId": "e3f61456-7361-4fb2-9aab-95d7e5eb9ebf",
+        "chatSessionId": "sess_6b8d45d6-c610-4cb4-875d-7bc92e25abc4",
+        "timestamp": 1791191244707
+      },
+      {
+        "executionId": "e3f61456-7361-4fb2-9aab-95d7e5eb9ebf",
+        "chatSessionId": "sess_6b8d45d6-c610-4cb4-875d-7bc92e25abc4",
+        "timestamp": 1791198110634
+      }
+    ],
+    "3.1 Implement JWT service and filter": [
+      {
+        "executionId": "e3f61456-7361-4fb2-9aab-95d7e5eb9ebf",
+        "chatSessionId": "sess_6b8d45d6-c610-4cb4-875d-7bc92e25abc4",
+        "timestamp": 1791189213174
+      },
+      {
+        "executionId": "e3f61456-7361-4fb2-9aab-95d7e5eb9ebf",
+        "chatSessionId": "sess_6b8d45d6-c610-4cb4-875d-7bc92e25abc4",
+        "timestamp": 1791198118624
+      },
+      {
+        "executionId": "e3f61456-7361-4fb2-9aab-95d7e5eb9ebf",
+        "chatSessionId": "sess_6b8d45d6-c610-4cb4-875d-7bc92e25abc4",
+        "timestamp": 1791220537964
+      }
+    ],
+    "3.2 Configure Spring Security filter chain": [
+      {
+        "executionId": "e3f61456-7361-4fb2-9aab-95d7e5eb9ebf",
+        "chatSessionId": "sess_6b8d45d6-c610-4cb4-875d-7bc92e25abc4",
+        "timestamp": 1791189213407
+      },
+      {
+        "executionId": "e3f61456-7361-4fb2-9aab-95d7e5eb9ebf",
+        "chatSessionId": "sess_6b8d45d6-c610-4cb4-875d-7bc92e25abc4",
+        "timestamp": 1791220547539
+      },
+      {
+        "executionId": "e3f61456-7361-4fb2-9aab-95d7e5eb9ebf",
+        "chatSessionId": "sess_6b8d45d6-c610-4cb4-875d-7bc92e25abc4",
+        "timestamp": 1791220553901
+      }
+    ],
+    "4.1 Implement auth entities, DTOs, repository, and service": [
+      {
+        "executionId": "e3f61456-7361-4fb2-9aab-95d7e5eb9ebf",
+        "chatSessionId": "sess_6b8d45d6-c610-4cb4-875d-7bc92e25abc4",
+        "timestamp": 1791189213674
+      },
+      {
+        "executionId": "62f2b866-008b-4433-8ae3-85b7094d3c96",
+        "chatSessionId": "sess_6b8d45d6-c610-4cb4-875d-7bc92e25abc4",
+        "timestamp": 1791274748798
+      }
+    ],
+    "4.2 Implement AuthController and UserManagementController": [
+      {
+        "executionId": "e3f61456-7361-4fb2-9aab-95d7e5eb9ebf",
+        "chatSessionId": "sess_6b8d45d6-c610-4cb4-875d-7bc92e25abc4",
+        "timestamp": 1791189214089
+      },
+      {
+        "executionId": "62f2b866-008b-4433-8ae3-85b7094d3c96",
+        "chatSessionId": "sess_6b8d45d6-c610-4cb4-875d-7bc92e25abc4",
+        "timestamp": 1791274755734
+      }
+    ],
+    "5. Checkpoint — core infrastructure complete": [
+      {
+        "executionId": "e3f61456-7361-4fb2-9aab-95d7e5eb9ebf",
+        "chatSessionId": "sess_6b8d45d6-c610-4cb4-875d-7bc92e25abc4",
+        "timestamp": 1791189214542
+      },
+      {
+        "executionId": "62f2b866-008b-4433-8ae3-85b7094d3c96",
+        "chatSessionId": "sess_6b8d45d6-c610-4cb4-875d-7bc92e25abc4",
+        "timestamp": 1791274767173
+      }
+    ],
+    "6.1 Implement Category entity, repository, DTOs, and service": [
+      {
+        "executionId": "e3f61456-7361-4fb2-9aab-95d7e5eb9ebf",
+        "chatSessionId": "sess_6b8d45d6-c610-4cb4-875d-7bc92e25abc4",
+        "timestamp": 1791189215173
+      }
+    ],
+    "6.2 Implement CategoryController": [
+      {
+        "executionId": "e3f61456-7361-4fb2-9aab-95d7e5eb9ebf",
+        "chatSessionId": "sess_6b8d45d6-c610-4cb4-875d-7bc92e25abc4",
+        "timestamp": 1791189215398
+      }
+    ],
+    "7.1 Implement Supplier entity, repository, DTOs, and service": [
+      {
+        "executionId": "e3f61456-7361-4fb2-9aab-95d7e5eb9ebf",
+        "chatSessionId": "sess_6b8d45d6-c610-4cb4-875d-7bc92e25abc4",
+        "timestamp": 1791189215574
+      }
+    ],
+    "7.2 Implement SupplierController": [
+      {
+        "executionId": "e3f61456-7361-4fb2-9aab-95d7e5eb9ebf",
+        "chatSessionId": "sess_6b8d45d6-c610-4cb4-875d-7bc92e25abc4",
+        "timestamp": 1791189215748
+      }
+    ],
+    "8.1 Implement Product entity, repository, DTOs, and service": [
+      {
+        "executionId": "e3f61456-7361-4fb2-9aab-95d7e5eb9ebf",
+        "chatSessionId": "sess_6b8d45d6-c610-4cb4-875d-7bc92e25abc4",
+        "timestamp": 1791189215898
+      }
+    ],
+    "8.2 Implement ProductController": [
+      {
+        "executionId": "e3f61456-7361-4fb2-9aab-95d7e5eb9ebf",
+        "chatSessionId": "sess_6b8d45d6-c610-4cb4-875d-7bc92e25abc4",
+        "timestamp": 1791189216071
+      }
+    ],
+    "9.1 Implement shared pagination utilities and response wrapper": [
+      {
+        "executionId": "e3f61456-7361-4fb2-9aab-95d7e5eb9ebf",
+        "chatSessionId": "sess_6b8d45d6-c610-4cb4-875d-7bc92e25abc4",
+        "timestamp": 1791189216378
+      }
+    ],
+    "10.1 Implement PurchaseOrder and PurchaseOrderItem entities, repository, and DTOs": [
+      {
+        "executionId": "e3f61456-7361-4fb2-9aab-95d7e5eb9ebf",
+        "chatSessionId": "sess_6b8d45d6-c610-4cb4-875d-7bc92e25abc4",
+        "timestamp": 1791189216574
+      }
+    ],
+    "10.2 Implement PurchaseOrderService — creation and status transition logic": [
+      {
+        "executionId": "e3f61456-7361-4fb2-9aab-95d7e5eb9ebf",
+        "chatSessionId": "sess_6b8d45d6-c610-4cb4-875d-7bc92e25abc4",
+        "timestamp": 1791189216759
+      }
+    ],
+    "10.3 Implement the transactional RECEIVED stock-update flow": [
+      {
+        "executionId": "e3f61456-7361-4fb2-9aab-95d7e5eb9ebf",
+        "chatSessionId": "sess_6b8d45d6-c610-4cb4-875d-7bc92e25abc4",
+        "timestamp": 1791189216906
+      }
+    ],
+    "10.4 Implement PurchaseOrderController": [
+      {
+        "executionId": "e3f61456-7361-4fb2-9aab-95d7e5eb9ebf",
+        "chatSessionId": "sess_6b8d45d6-c610-4cb4-875d-7bc92e25abc4",
+        "timestamp": 1791189217066
+      }
+    ],
+    "11.1 Implement StockMovement repository and service": [
+      {
+        "executionId": "e3f61456-7361-4fb2-9aab-95d7e5eb9ebf",
+        "chatSessionId": "sess_6b8d45d6-c610-4cb4-875d-7bc92e25abc4",
+        "timestamp": 1791189217438
+      }
+    ],
+    "11.2 Implement StockMovementController": [
+      {
+        "executionId": "e3f61456-7361-4fb2-9aab-95d7e5eb9ebf",
+        "chatSessionId": "sess_6b8d45d6-c610-4cb4-875d-7bc92e25abc4",
+        "timestamp": 1791189217696
+      }
+    ],
+    "12.1 Implement Low Stock service and controller": [
+      {
+        "executionId": "e3f61456-7361-4fb2-9aab-95d7e5eb9ebf",
+        "chatSessionId": "sess_6b8d45d6-c610-4cb4-875d-7bc92e25abc4",
+        "timestamp": 1791189217951
+      }
+    ],
+    "13.1 Implement Dashboard service": [
+      {
+        "executionId": "e3f61456-7361-4fb2-9aab-95d7e5eb9ebf",
+        "chatSessionId": "sess_6b8d45d6-c610-4cb4-875d-7bc92e25abc4",
+        "timestamp": 1791189218098
+      }
+    ],
+    "13.2 Implement DashboardController": [
+      {
+        "executionId": "e3f61456-7361-4fb2-9aab-95d7e5eb9ebf",
+        "chatSessionId": "sess_6b8d45d6-c610-4cb4-875d-7bc92e25abc4",
+        "timestamp": 1791189218241
+      }
+    ],
+    "14.1 Implement Reports service and controller": [
+      {
+        "executionId": "e3f61456-7361-4fb2-9aab-95d7e5eb9ebf",
+        "chatSessionId": "sess_6b8d45d6-c610-4cb4-875d-7bc92e25abc4",
+        "timestamp": 1791189218407
+      }
+    ],
+    "15.1 Implement isolated AI service module": [
+      {
+        "executionId": "e3f61456-7361-4fb2-9aab-95d7e5eb9ebf",
+        "chatSessionId": "sess_6b8d45d6-c610-4cb4-875d-7bc92e25abc4",
+        "timestamp": 1791189218616
+      }
+    ],
+    "15.2 Implement AIController": [
+      {
+        "executionId": "e3f61456-7361-4fb2-9aab-95d7e5eb9ebf",
+        "chatSessionId": "sess_6b8d45d6-c610-4cb4-875d-7bc92e25abc4",
+        "timestamp": 1791189218772
+      }
+    ],
+    "16. Checkpoint — full backend complete": [
+      {
+        "executionId": "e3f61456-7361-4fb2-9aab-95d7e5eb9ebf",
+        "chatSessionId": "sess_6b8d45d6-c610-4cb4-875d-7bc92e25abc4",
+        "timestamp": 1791189218964
+      }
+    ],
+    "17.1 Initialize React + Vite project with all required dependencies": [
+      {
+        "executionId": "e3f61456-7361-4fb2-9aab-95d7e5eb9ebf",
+        "chatSessionId": "sess_6b8d45d6-c610-4cb4-875d-7bc92e25abc4",
+        "timestamp": 1791189219171
+      }
+    ],
+    "17.2 Implement Axios instance, interceptors, and per-domain API modules": [
+      {
+        "executionId": "e3f61456-7361-4fb2-9aab-95d7e5eb9ebf",
+        "chatSessionId": "sess_6b8d45d6-c610-4cb4-875d-7bc92e25abc4",
+        "timestamp": 1791189219397
+      }
+    ],
+    "17.3 Implement AuthContext, useAuth hook, and route guards": [
+      {
+        "executionId": "e3f61456-7361-4fb2-9aab-95d7e5eb9ebf",
+        "chatSessionId": "sess_6b8d45d6-c610-4cb4-875d-7bc92e25abc4",
+        "timestamp": 1791189219858
+      }
+    ],
+    "17.4 Implement shared UI components": [
+      {
+        "executionId": "e3f61456-7361-4fb2-9aab-95d7e5eb9ebf",
+        "chatSessionId": "sess_6b8d45d6-c610-4cb4-875d-7bc92e25abc4",
+        "timestamp": 1791189220064
+      }
+    ],
+    "18.1 Implement Login and Register pages": [
+      {
+        "executionId": "e3f61456-7361-4fb2-9aab-95d7e5eb9ebf",
+        "chatSessionId": "sess_6b8d45d6-c610-4cb4-875d-7bc92e25abc4",
+        "timestamp": 1791189220319
+      }
+    ],
+    "18.2 Set up React Router route definitions": [
+      {
+        "executionId": "e3f61456-7361-4fb2-9aab-95d7e5eb9ebf",
+        "chatSessionId": "sess_6b8d45d6-c610-4cb4-875d-7bc92e25abc4",
+        "timestamp": 1791189220502
+      }
+    ],
+    "19.1 Implement Categories page (ADMIN only)": [
+      {
+        "executionId": "e3f61456-7361-4fb2-9aab-95d7e5eb9ebf",
+        "chatSessionId": "sess_6b8d45d6-c610-4cb4-875d-7bc92e25abc4",
+        "timestamp": 1791189220679
+      }
+    ],
+    "19.2 Implement Suppliers page (ADMIN only)": [
+      {
+        "executionId": "e3f61456-7361-4fb2-9aab-95d7e5eb9ebf",
+        "chatSessionId": "sess_6b8d45d6-c610-4cb4-875d-7bc92e25abc4",
+        "timestamp": 1791189220829
+      }
+    ],
+    "19.3 Implement Products pages": [
+      {
+        "executionId": "e3f61456-7361-4fb2-9aab-95d7e5eb9ebf",
+        "chatSessionId": "sess_6b8d45d6-c610-4cb4-875d-7bc92e25abc4",
+        "timestamp": 1791189221002
+      }
+    ],
+    "20.1 Implement Purchase Orders list and detail pages": [
+      {
+        "executionId": "e3f61456-7361-4fb2-9aab-95d7e5eb9ebf",
+        "chatSessionId": "sess_6b8d45d6-c610-4cb4-875d-7bc92e25abc4",
+        "timestamp": 1791189221155
+      }
+    ],
+    "20.2 Implement Create Purchase Order page": [
+      {
+        "executionId": "e3f61456-7361-4fb2-9aab-95d7e5eb9ebf",
+        "chatSessionId": "sess_6b8d45d6-c610-4cb4-875d-7bc92e25abc4",
+        "timestamp": 1791189221315
+      }
+    ],
+    "21.1 Implement Stock Movements page": [
+      {
+        "executionId": "e3f61456-7361-4fb2-9aab-95d7e5eb9ebf",
+        "chatSessionId": "sess_6b8d45d6-c610-4cb4-875d-7bc92e25abc4",
+        "timestamp": 1791189221502
+      }
+    ],
+    "21.2 Implement Low Stock page": [
+      {
+        "executionId": "e3f61456-7361-4fb2-9aab-95d7e5eb9ebf",
+        "chatSessionId": "sess_6b8d45d6-c610-4cb4-875d-7bc92e25abc4",
+        "timestamp": 1791189221689
+      }
+    ],
+    "22.1 Implement Dashboard KPI cards and alert panel": [
+      {
+        "executionId": "e3f61456-7361-4fb2-9aab-95d7e5eb9ebf",
+        "chatSessionId": "sess_6b8d45d6-c610-4cb4-875d-7bc92e25abc4",
+        "timestamp": 1791189221839
+      }
+    ],
+    "22.2 Implement purchase trend and inventory trend charts": [
+      {
+        "executionId": "e3f61456-7361-4fb2-9aab-95d7e5eb9ebf",
+        "chatSessionId": "sess_6b8d45d6-c610-4cb4-875d-7bc92e25abc4",
+        "timestamp": 1791189222086
+      }
+    ],
+    "22.3 Implement recent stock movements table": [
+      {
+        "executionId": "e3f61456-7361-4fb2-9aab-95d7e5eb9ebf",
+        "chatSessionId": "sess_6b8d45d6-c610-4cb4-875d-7bc92e25abc4",
+        "timestamp": 1791189222269
+      }
+    ],
+    "23.1 Implement Reports page": [
+      {
+        "executionId": "e3f61456-7361-4fb2-9aab-95d7e5eb9ebf",
+        "chatSessionId": "sess_6b8d45d6-c610-4cb4-875d-7bc92e25abc4",
+        "timestamp": 1791189222437
+      }
+    ],
+    "23.2 Implement AI Assistant page": [
+      {
+        "executionId": "e3f61456-7361-4fb2-9aab-95d7e5eb9ebf",
+        "chatSessionId": "sess_6b8d45d6-c610-4cb4-875d-7bc92e25abc4",
+        "timestamp": 1791189222589
+      }
+    ],
+    "24.1 Audit and complete client-side form validation across all pages": [
+      {
+        "executionId": "e3f61456-7361-4fb2-9aab-95d7e5eb9ebf",
+        "chatSessionId": "sess_6b8d45d6-c610-4cb4-875d-7bc92e25abc4",
+        "timestamp": 1791189222921
+      }
+    ],
+    "24.2 Verify responsive layout across breakpoints": [
+      {
+        "executionId": "e3f61456-7361-4fb2-9aab-95d7e5eb9ebf",
+        "chatSessionId": "sess_6b8d45d6-c610-4cb4-875d-7bc92e25abc4",
+        "timestamp": 1791189223531
+      }
+    ],
+    "26. Final checkpoint — full system integration": [
+      {
+        "executionId": "e3f61456-7361-4fb2-9aab-95d7e5eb9ebf",
+        "chatSessionId": "sess_6b8d45d6-c610-4cb4-875d-7bc92e25abc4",
+        "timestamp": 1791189223714
+      }
+    ],
+    "1. Backend project scaffolding and shared infrastructure": [
+      {
+        "executionId": "e3f61456-7361-4fb2-9aab-95d7e5eb9ebf",
+        "chatSessionId": "sess_6b8d45d6-c610-4cb4-875d-7bc92e25abc4",
+        "timestamp": 1791191244965
+      }
+    ],
+    "2. Database entities and schema": [
+      {
+        "executionId": "e3f61456-7361-4fb2-9aab-95d7e5eb9ebf",
+        "chatSessionId": "sess_6b8d45d6-c610-4cb4-875d-7bc92e25abc4",
+        "timestamp": 1791198111117
+      }
+    ],
+    "3. Security infrastructure — JWT and Spring Security": [
+      {
+        "executionId": "e3f61456-7361-4fb2-9aab-95d7e5eb9ebf",
+        "chatSessionId": "sess_6b8d45d6-c610-4cb4-875d-7bc92e25abc4",
+        "timestamp": 1791220554297
+      }
+    ],
+    "4. Authentication and user management": [
+      {
+        "executionId": "62f2b866-008b-4433-8ae3-85b7094d3c96",
+        "chatSessionId": "sess_6b8d45d6-c610-4cb4-875d-7bc92e25abc4",
+        "timestamp": 1791274756418
+      }
+    ]
+  }
+}
